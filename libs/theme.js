@@ -18,7 +18,7 @@ const components = {
                 textDecorationColor:'#525252',
                 textDecorationThickness:4,
                 marginTop:3,
-                marginBottom:4
+                marginBottom:4,
             }
         }
     },
@@ -31,7 +31,7 @@ const components = {
 }
 
 const fonts = {
-    Heading:'M PLUS Rounded 1C'
+    heading: "'Fira Code'"
 }
 
 const colors = {
@@ -48,8 +48,8 @@ const theme = extendTheme({
     config,
     styles,
     components,
-    colors,
-    fonts
+    fonts,
+    colors
 })
 
 export default theme
