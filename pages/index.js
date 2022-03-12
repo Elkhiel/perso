@@ -42,7 +42,7 @@ const Page = ( ) => {
                 Whoami ?
                 </Heading>
                 <Paragraph>I am a french student in my second year in networks and telecommunications at Saint-Malo.
-                    <br/>In my free time I have fun developing applications in JS / PHP / React / MySQL ...
+                    <br/>In my free time I enjoy learning new technical skills, as well as programming applications in JS / PHP / React / MySQL ...
                     <br/>At the moment, two colleagues and I are working on a new project called {''}
                     <Link href='https://rez0.fr' isExternal>
                         Rez'0 <ExternalLinkIcon/>
@@ -66,11 +66,11 @@ const Page = ( ) => {
                 </BioSection>
                 <BioSection>
                     <BioDate>2013</BioDate>
-                    Middle school student at Bourgchevreuil - <i>France</i>
+                    Middle school student at «Collège Bourgchevreuil» - <i>France</i>
                 </BioSection>
                 <BioSection>
                     <BioDate>2017</BioDate>
-                    Hight school student at Sévigné, majoring in economics and social studies - <i>France</i>
+                    Hight school student at «Lycée Sévigné» , majoring in economics and social studies - <i>France</i>
                 </BioSection>
                 <BioSection>
                     <BioDate>2020</BioDate>
@@ -79,7 +79,8 @@ const Page = ( ) => {
             </Section>
             <Section delay={0.3}>
                 <Box align="center" my={4}>
-                    <NextLink href="/images/CV_Matthieu_Carbonnier.pdf">
+                    <NextLink href="/pdf/CV_Matthieu_Carbonnier.pdf">
+                        
                         <Button rightIcon={<ChevronRightIcon/>} colorScheme={useColorModeValue('purple', 'orange')}>
                             My CV
                         </Button>
@@ -88,6 +89,7 @@ const Page = ( ) => {
 
             </Section>
         </Container>
+        
     )
 }
 
