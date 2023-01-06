@@ -101,14 +101,15 @@ const Page = ( ) => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <Link href='https://github.com/elkhiel' target="_blank">
-                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}></Icon>}>Elkhiel</Button>
+                            <Link href='https://github.com/elkhiel' style={{textDecoration: "none"}} target="_blank" hover={{textDecoration: "none"}}>
+                                <Button variant="ghost" colorScheme="teal"  leftIcon={<Icon as={IoLogoGithub}></Icon>}>Elkhiel</Button>
                             </Link>
                         </ListItem>
                         <ListItem>
-                            <Link href='https://discord.com/login' target="_blank">
-                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord}></Icon>}>Matthieu#4728</Button>
-                            </Link>
+                        <Link href='https://discord.com/login' style={{textDecoration: "none"}} target="_blank" hover={{textDecoration: "none"}}>
+                            <Button variant="ghost" colorScheme="teal"  leftIcon={<Icon as={IoLogoDiscord}></Icon>}>Matthieu#4728</Button>
+                        </Link>
+
                         </ListItem>
                     </List>
                 </Section>
